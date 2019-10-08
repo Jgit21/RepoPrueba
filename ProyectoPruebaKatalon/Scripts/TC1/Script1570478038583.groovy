@@ -19,15 +19,15 @@ WebUI.navigateToUrl('https://www.correos.cl/SitePages/home.aspx')
 
 WebUI.setText(findTestObject('Page_CorreosChile/input_calle'), 'carmen')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Page_CorreosChile/input_numero'), '390')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.setText(findTestObject('Page_CorreosChile/input_comuna'), 'santiago')
 
-WebUI.delay(2)
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Page_CorreosChile/Boton_Buscar'))
 
