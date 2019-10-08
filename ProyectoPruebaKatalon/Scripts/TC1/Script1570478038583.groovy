@@ -17,7 +17,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.correos.cl/SitePages/home.aspx')
 
-WebUI.setText(findTestObject('Page_CorreosChile/input_calle'), 'victoria')
+WebUI.setText(findTestObject('Page_CorreosChile/input_calle'), 'carmen')
 
 WebUI.delay(2)
 
